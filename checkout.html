@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout - HexaShop</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/templatemo-hexashop.css" />
+  <style>
+    .checkout-section {
+      padding: 50px 0;
+    }
+    .checkout-form {
+      background: #f9f9f9;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    .form-control {
+      margin-bottom: 15px;
+    }
+    .checkout-summary {
+      background: #f1f1f1;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <nav class="main-nav">
+      <a href="index.html" class="logo">
+        <img src="assets/images/LOGO-removebg-preview.png">
+      </a>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Shop</a></li>
+          <li><a href="checkout.html" class="active">Checkout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Checkout Section -->
+  <section class="checkout-section">
+    <div class="container">
+      <h2 class="mb-4 text-center">Checkout</h2>
+      <div class="row">
+        <!-- Form -->
+        <div class="col-md-7">
+          <div class="checkout-form">
+            <h4>Isi Data Pembelian</h4>
+            <form action="#" method="POST">
+              <input type="text" class="form-control" name="name" placeholder="Nama Lengkap" required />
+              <input type="email" class="form-control" name="email" placeholder="Email " required />
+              <input type="text" class="form-control" name="address" placeholder="Alamat" required />
+              <input type="text" class="form-control" name="city" placeholder="Kota" required />
+              <input type="text" class="form-control" name="zip" placeholder="Kode Pos" required />
+              <input type="tel" class="form-control" name="phone" placeholder="Nomor Handphone" required />
+              <hr />
+             <h4>Payment</h4>
+<input type="text" class="form-control" name="card" placeholder="Nomor Rekening" required />
+<label for="expiry">Expiry Date</label>
+<input type="month" class="form-control" name="expiry" id="expiry" required />
+<input type="text" class="form-control" name="cvv" placeholder="Jumlah Pembayaran" required />
+            </form>
+          </div>
+        </div>
+
+        <!-- Order Summary -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Subscribe Area Starts ***** -->
+  <div class="subscribe">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="section-heading">
+                    <h2>Dengan Berlangganan Newsletter Kami, Anda Bisa Mendapatkan Diskon 30%</h2>
+                    <span>Dapatkan info terbaru, promo eksklusif, dan penawaran menarik langsung ke email Anda.</span>
+                </div>
+                <form id="subscribe" action="" method="get">
+                    <div class="row">
+                      <div class="col-lg-5">
+                        <fieldset>
+                          <input name="name" type="text" id="name" placeholder="Your Name" required="">
+                        </fieldset>
+                      </div>
+                      <div class="col-lg-5">
+                        <fieldset>
+                          <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
+                        </fieldset>
+                      </div>
+                      <div class="col-lg-2">
+                        <fieldset>
+                          <button type="submit" id="form-submit" class="main-dark-button"><i class="fa fa-paper-plane"></i></button>
+                        </fieldset>
+                      </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li>Store Location:<br><span>Jl. Serma Ishak Ahmad No.45, RT.006, Beliung, Kec. Alam barajo, Kota Jambi, Jambi</span></li>
+                            <li>Phone:<br><span>0823-7836-1907</span></li>
+                            <li>Office Location:<br><span>Kota Jambi</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li>Work Hours:<br><span> Setiap Hari 07:30 - 21:30</span></li>
+                            <li>Email:<br><span>r4clothingjeans@gmail.com</span></li>
+                            <li>Social Media:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Subscribe Area Ends ***** -->
+
+<!-- ***** Footer Start ***** -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="first-item">
+                    <div class="logo">
+                        <img src="assets/images/LOGO-removebg-preview.png" alt="r4clothingjeans">
+                    </div>
+                    <ul>
+                        <li><a href="#">Jl. Serma Ishak Ahmad No.45, RT.006, Beliung, Kec. Alam barajo, Kota Jambi, Jambi</a></li>
+                        <li><a href="#">r4clothingjeans@gmail.com</a></li>
+                        <li><a href="#">0823-7836-1907</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <h4>Shopping &amp; Categories</h4>
+                <ul>
+                    <li><a href="index.html#men">Koleksi Pria</a></li>
+                    <li><a href="index.html#women">Koleksi Wanita</a></li>
+                    <li><a href="index.html#kids">Koleksi Anak-Anak</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="#top">Homepage</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h4>Help &amp; Information</h4>
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Tracking ID</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-12">
+                <div class="under-footer">
+                    <p>Copyright © 2025 R4 Clothhing & Jeans Co., Ltd. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
